@@ -28,8 +28,8 @@ class School
   end
   
   def sort
-    @roster.collect do |grades, students|
-      students.sort.flatten
+    @roster.map do |grades, students|
+      students.sort
    end
 end
 
