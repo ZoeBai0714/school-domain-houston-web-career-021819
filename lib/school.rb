@@ -1,12 +1,14 @@
 # code here!
 class School
-  #@@roster = {}
   attr_reader :name
   def initialize(name)
     @name = name
     @@roster = {}
   end
  
+ def self.roster
+   @@roster
+ end
   
   def add_student(name, grade)
     if roster["#{grade}"]
