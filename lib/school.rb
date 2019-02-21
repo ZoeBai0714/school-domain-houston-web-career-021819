@@ -34,7 +34,7 @@ class School
      results["#{grades}".to_i] << students.sort
    end
    
-   
+   results
 end
 
 end
