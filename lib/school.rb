@@ -20,6 +20,7 @@ class School
     roster.each do |grades, students|
       if grades == grade
         return students
+      end
     end
   end
   
