@@ -33,7 +33,7 @@ class School
      results["#{grades}".to_i] = []
      results["#{grades}".to_i] << students.sort
    end
-   results
+   results.flatten
 end
 
 end
