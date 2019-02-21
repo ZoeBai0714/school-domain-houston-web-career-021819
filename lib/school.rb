@@ -13,13 +13,13 @@ class School
     if @roster["#{grade}".to_i]
       @roster["#{grade}".to_i] << "#{name}"
     else
-      roster["#{grade}".to_i] = []
-      roster["#{grade}".to_i] << "#{name}"
+      @roster["#{grade}".to_i] = []
+      @roster["#{grade}".to_i] << "#{name}"
     end
   end
   
   def grade(grade)
-    roster.each do |grades, students|
+    @roster.each do |grades, students|
       if grades == grade
         return students
       end
