@@ -32,7 +32,7 @@ class School
       students.sort
    end
    
-   results
+   
 end
 
 end
