@@ -23,4 +23,6 @@ class School
     end
   end
   
+  def sort
+  end
 end
