@@ -29,7 +29,7 @@ class School
   
   def sort
     results = {}
-    @roster.each do |grades, students|
+    @roster.map do |grades, students|
      results["#{grades}".to_i] = []
      results["#{grades}".to_i] << students.sort
    end
