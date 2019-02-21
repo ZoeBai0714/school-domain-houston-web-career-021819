@@ -31,7 +31,7 @@ class School
     @roster.map do |grades, students|
      students.sort
    end
-   @roster
+   
    
 end
 
